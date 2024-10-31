@@ -1,0 +1,66 @@
+body{
+    background-color: #7D869C;
+    margin: 0px;
+    
+}
+
+header{
+    background-color: #272838;
+    color: aliceblue;
+    right: 0;
+    left: 0;
+    top: 0;
+    text-align: center;
+    position: absolute;
+}
+
+.winner{
+    display: block;
+    margin: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: aliceblue;
+}
+
+.lab{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.labels{
+    padding: 20px;
+    margin: 15px;
+    background-color: #272838;
+    color: aliceblue;
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 15px;
+}
+
+.btnss{
+    font-size: 3em;
+    transition: 0.50s;
+    background-color: #272838;
+    color: aliceblue;
+}
+
+.btnss:hover {
+    background-color: #657ED4;
+}
+
+footer{
+    background-color: #272838;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+}
